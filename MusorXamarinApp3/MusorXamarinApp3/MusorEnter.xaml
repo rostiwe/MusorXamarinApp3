@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MusorXamarinApp3.MusorEnter">
+    <ContentPage.Content>
+        <StackLayout>
+			<Entry IsPassword="False" x:Name="NomerPartii" Placeholder="Номер паритии"/>
+			<Entry IsPassword="False" x:Name="Ves" Placeholder="Суммарный вес"/>
+			<Entry IsPassword="False" x:Name="KontNomer" Placeholder="Номер контейнера"/>
+			<Entry IsPassword="False" x:Name="MusorTipe" Placeholder="Тип отходов"/>
+			<Button Text="Ввод" x:Name="enter" Clicked="enter_Clicked"/>
+		</StackLayout>
+    </ContentPage.Content>
+</ContentPage>

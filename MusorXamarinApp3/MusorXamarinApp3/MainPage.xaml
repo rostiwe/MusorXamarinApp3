@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MusorXamarinApp3.MainPage">
+
+	<StackLayout x:Name="stak">
+		<Label Text="" x:Name="login" Margin="10"/>
+		<StackLayout x:Name="stack2">
+			<Button Text="Вход в систему" x:Name="loginButton" Clicked="loginButton_Clicked"/>
+		</StackLayout>
+		<StackLayout x:Name="stack1">
+			<Label Text="Нажмите что бы проверить наличие кода в базе - нажмите санировать" x:Name="Label1" />
+			<Button Text="Сканировать" x:Name="Button1" Clicked="Button1_Clicked"/>
+			<Label Text="Нажмите что бы отсканировать и ввести значения"  x:Name="Label2" />
+			<Button Text="Сканировать и ввести значение" x:Name="Button2" Clicked="Button2_Clicked"/>
+			<Label Text="Внесение новых сведений по партии" x:Name="Label3" />
+			<Button Text="Внести сведения по партии" x:Name="Button3" Clicked="Button3_Clicked"/>
+			<Button Text="Редактировать сведения по партии" x:Name="Button4" Clicked="Button4_Clicked"/>
+			<Button Text="Выход из системы" x:Name="LogAut" Margin="10,30,10,0" VerticalOptions="End" Clicked="LogAut_Clicked"/>
+		</StackLayout>
+	</StackLayout>
+</ContentPage>
